@@ -1,0 +1,86 @@
+
+body{
+    background: linear-gradient(
+        90deg,
+        rgba(93,12,255,1)0%,
+        rgba(155,0,250,1)100%
+    );
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    max-height: 30rem;
+    overflow-y: auto;
+    border-radius: .5rem;
+    box-shadow: 0 25px 50px -12px #08086b ;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.card-title{
+    color: #000000;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.inputAdd{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(93,12,255,1);
+    outline: none;
+}
+.inputAdd::placeholder{
+    font-weight: 500;
+    text-transform: capitalize;
+    color: blueviolet;
+}
+.btn {
+    font-size: 0.875rem;
+    line-height: 1;
+    background-color: #08086b;
+    color: #fff;
+    font-weight: 400 !important;
+    margin-left: 2rem;
+    padding: 0.7rem 2.5rem;
+    background: linear-gradient(
+        90deg,
+        rgba(93,12,255,1)0%,
+        rgba(155,0,250,1)100%
+    );
+    border-radius: 0.2;
+}
+/* hr{
+    width: 80%;
+    border-radius: 2rem;
+    background-color: rgba(155,0,250,1);
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+} */
+span{
+    cursor: pointer;
+    font-size: 20px;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+    color: white;
+
+}
+span.doneicon{
+    background-color: rgb(2, 145, 45);
+}
+.deleticon{
+    background-color: rgb(213, 28, 28);
+}
